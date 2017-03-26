@@ -1,6 +1,7 @@
 ---
-# Provide front matter so Jekyll processes this file as SASS.
+#  Provide front matter so Jekyll processes this file as SASS.
 ---
+
 @charset "utf-8";
 
 $marchgreen: #00c9c4;
@@ -9,42 +10,62 @@ $marchblue: #00507f;
 
 .ui.borderless.topmenu.menu {
   background: $marchblue;
+  border-radius: 0px;
+  margin: 0px;
 }
 
 .ui.borderless.bottommenu.menu {
-  background: $marchblue;
+  background: $marchgreen;
+  color: white;
+  border-radius: 0px;
 }
 
-.ui.menu .item {
+.topmenu.ui.menu .item {
   color: $marchred;
   font-size: 1.2rem;
   line-height: 1.2em;
 }
 
-// Default home page icon color
-.icon-color {
-  color: darken(silver, 40%);
+.blue-panel {
+  background-color: $marchblue;
+  color: white;
+  padding-bottom: 20px;
+
+}
+
+.white-panel {
+  background-color: white;
+  color: $marchblue;
+  padding-bottom: 20px;
+
+}
+
+.title-font {
+  font-family: 'Roboto', 'sans-serif';
+  font-weight: bold;
+  font-size: 2.5em;
+  padding-top: 0px;
 }
 
 
 // Prefer space between list items in screen mode.
 .list-padding {
-  ul li { padding: 5px 0px; }
-  ol li { padding: 5px 0px; }
+  ul li {
+    padding: 5px 0px;
+  }
+  ol li {
+    padding: 5px 0px;
+  }
 }
 
-// This class is used in the prebuilt bio themes.
-.no-bottom {
-  margin-bottom: 0px !important;
-  padding-bottom: 0px !important;
-}
 
 body {
-    font-family: "Open Sans",sans-serif;
-    font-size: 100%;
-    font-weight: normal;
-    color: #777;
-    font-size: 1.6rem;
-    line-height: 1.6em;
-    overflow-x: hidden;
+  font-family: "Open Sans", sans-serif;
+  font-size: 100%;
+  font-weight: normal;
+  color: #777;
+  font-size: 1.6rem;
+  line-height: 1.6em;
+  overflow-x: hidden;
+  background-color: black;
 }
