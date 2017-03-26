@@ -1,0 +1,10 @@
+# Welcome to Jekyll!
+
+# Site settings
+title: March for Science Hawaii
+email: marchforsciencehawaii@gmail.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://marchforsciencehawaii.github.io" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown

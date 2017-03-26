@@ -1,0 +1,31 @@
+.ui.borderless.topmenu.menu {
+  background: #00507f; }
+
+.ui.borderless.bottommenu.menu {
+  background: #00507f; }
+
+.ui.menu .item {
+  color: #e8674d;
+  font-size: 1.2rem;
+  line-height: 1.2em; }
+
+.icon-color {
+  color: #5a5a5a; }
+
+.list-padding ul li {
+  padding: 5px 0px; }
+.list-padding ol li {
+  padding: 5px 0px; }
+
+.no-bottom {
+  margin-bottom: 0px !important;
+  padding-bottom: 0px !important; }
+
+body {
+  font-family: "Open Sans",sans-serif;
+  font-size: 100%;
+  font-weight: normal;
+  color: #777;
+  font-size: 1.6rem;
+  line-height: 1.6em;
+  overflow-x: hidden; }

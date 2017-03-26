@@ -1,0 +1,50 @@
+---
+# Provide front matter so Jekyll processes this file as SASS.
+---
+@charset "utf-8";
+
+$marchgreen: #00c9c4;
+$marchred: #e8674d;
+$marchblue: #00507f;
+
+.ui.borderless.topmenu.menu {
+  background: $marchblue;
+}
+
+.ui.borderless.bottommenu.menu {
+  background: $marchblue;
+}
+
+.ui.menu .item {
+  color: $marchred;
+  font-size: 1.2rem;
+  line-height: 1.2em;
+}
+
+// Default home page icon color
+.icon-color {
+  color: darken(silver, 40%);
+}
+
+
+// Prefer space between list items in screen mode.
+.list-padding {
+  ul li { padding: 5px 0px; }
+  ol li { padding: 5px 0px; }
+}
+
+// This class is used in the prebuilt bio themes.
+.no-bottom {
+  margin-bottom: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+body {
+    font-family: "Open Sans",sans-serif;
+    font-size: 100%;
+    font-weight: normal;
+    color: #777;
+    font-size: 1.6rem;
+    line-height: 1.6em;
+    overflow-x: hidden;
+}
