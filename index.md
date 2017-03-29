@@ -48,7 +48,7 @@ layout: default
  <div class="centered row">
    <h1 class="ui title-font">Local Endorsements</h1>
  </div>
- <div class="ui centered padded grid">
+ <div class="ui stackable centered padded grid">
     {% include endorsement.html logo="soest.jpeg" url="https://www.soest.hawaii.edu/"  title="School of Ocean and Earth Science and Technology" %} 
     {% include endorsement.html logo="sacnas.jpeg" url="http://www.sacnashawaii.org/" title="Hawaii Chapter of the Society for the Advancement of Chicanos/Hispanics and Native Americans in Science"%} 
     {% include endorsement.html logo="peps.png" url="https://cms.ctahr.hawaii.edu/peps/" title="Department of Plant and Environment Protection Services, University of Hawaii" %} 
