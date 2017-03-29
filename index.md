@@ -59,9 +59,23 @@ layout: default
     
   </div>
 </div>
+
+<div class="ui white-panel grid">
+ <div class="centered row">
+   <h1 class="ui title-font">I march for science because...</h1>
+ </div>
+ 
+ <div style="padding-bottom: 20px;" class="ui text centered container">
+   <div class="ui embed" data-source="youtube" data-id="COZvuoHVkBs"></div>
+   <script>$('.ui.embed').embed();</script>
+   <p>In this two minute video, Hawaii citizens explain why they march for science</p>
+ </div>
+</div>
+
+
+
  
   
-
 
 
 
