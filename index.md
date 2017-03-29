@@ -48,7 +48,7 @@ layout: default
  <div class="centered row">
    <h1 class="ui title-font">Local Endorsements</h1>
  </div>
- <div class="ui centered grid">
+ <div class="ui centered padded grid">
     {% include endorsement.html logo="soest.jpeg" url="https://www.soest.hawaii.edu/"  title="School of Ocean and Earth Science and Technology" %} 
     {% include endorsement.html logo="sacnas.jpeg" url="http://www.sacnashawaii.org/" title="Hawaii Chapter of the Society for the Advancement of Chicanos/Hispanics and Native Americans in Science"%} 
     {% include endorsement.html logo="peps.png" url="https://cms.ctahr.hawaii.edu/peps/" title="Department of Plant and Environment Protection Services, University of Hawaii" %} 
@@ -56,6 +56,7 @@ layout: default
     {% include endorsement.html logo="hpha.jpeg" url="http://www.hawaiipublichealth.org/" title="Hawaii Public Health Association" %} 
     {% include endorsement.html logo="collegesocialsciences.png" url="http://www.socialsciences.hawaii.edu/" title="College of Social Sciences, University of Hawaii" %} 
     {% include endorsement.html logo="hafs.jpeg" url="http://www.hawaiiallianceforscience.com/" title="Hawaii Alliance for Science" %} 
+    {% include endorsement.html logo="uh-system.jpg" url="http://www.hawaii.edu/" title="University of Hawaii System" %} 
     
   </div>
 </div>
