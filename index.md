@@ -49,13 +49,13 @@ layout: default
    <h1 class="ui title-font">Local Endorsements</h1>
  </div>
  <div class="ui centered grid">
-    {% include endorsement.html logo="soest.jpeg" url="https://www.soest.hawaii.edu/" %} 
-    {% include endorsement.html logo="sacnas.jpeg" url="http://www.sacnashawaii.org/" %} 
-    {% include endorsement.html logo="peps.png" url="https://cms.ctahr.hawaii.edu/peps/" %} 
-    {% include endorsement.html logo="botany.png" url="http://www.botany.hawaii.edu/" %} 
-    {% include endorsement.html logo="hpha.jpeg" url="http://www.hawaiipublichealth.org/" %} 
-    {% include endorsement.html logo="collegesocialsciences.png" url="http://www.socialsciences.hawaii.edu/" %} 
-    {% include endorsement.html logo="hafs.jpeg" url="http://www.hawaiiallianceforscience.com/" %} 
+    {% include endorsement.html logo="soest.jpeg" url="https://www.soest.hawaii.edu/"  title="School of Ocean and Earth Science and Technology" %} 
+    {% include endorsement.html logo="sacnas.jpeg" url="http://www.sacnashawaii.org/" title="Hawaii Chapter of the Society for the Advancement of Chicanos/Hispanics and Native Americans in Science"%} 
+    {% include endorsement.html logo="peps.png" url="https://cms.ctahr.hawaii.edu/peps/" title="Department of Plant and Environment Protection Services, University of Hawaii" %} 
+    {% include endorsement.html logo="botany.png" url="http://www.botany.hawaii.edu/" title="Department of Botany, University of Hawaii" %} 
+    {% include endorsement.html logo="hpha.jpeg" url="http://www.hawaiipublichealth.org/" title="Hawaii Public Health Association" %} 
+    {% include endorsement.html logo="collegesocialsciences.png" url="http://www.socialsciences.hawaii.edu/" title="College of Social Sciences, University of Hawaii" %} 
+    {% include endorsement.html logo="hafs.jpeg" url="http://www.hawaiiallianceforscience.com/" title="Hawaii Alliance for Science" %} 
     
   </div>
 </div>
